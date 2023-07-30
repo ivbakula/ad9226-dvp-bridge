@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NZ-1" package="QFN48" speed="6" partNumber="GW1NZ-LV1QN48C6/I5"/>
+    <FileList>
+        <File path="/opt/gowin-eda-edu-ide/ipcore/FIFO_HS/data/fifo_hs.v" type="verilog"/>
+        <File path="/opt/gowin-eda-edu-ide/ipcore/FIFO_HS/data/fifo_hs_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="dsp_balance" value="1"/>
+        <Option type="include_path" value="/opt/gowin-eda-edu-ide/ipcore/FIFO_HS/data"/>
+        <Option type="include_path" value="/home/ivan/GOWIN/ADC_Bridge/src/fifo_hs/temp/FIFOHS"/>
+        <Option type="output_file" value="fifo_hs.vg"/>
+        <Option type="output_template" value="fifo_hs_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>
